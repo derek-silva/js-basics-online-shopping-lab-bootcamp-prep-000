@@ -1,4 +1,3 @@
-
 var cart = [];
 
 function getCart() {
@@ -10,8 +9,9 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(item) {
- // write your code here
+function addToCart(itemName) {
+  addToCart.push("{itemName:" + itemName + "," + "itemPrice:" = itemPrice + " }")
+  return addToCart.join(',');
 }
 
 function viewCart() {
